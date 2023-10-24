@@ -1,7 +1,5 @@
-function Page() {
-  return (
-   <h2>Hello Next</h2>
-  )
-}
+import Index from "../Components/Index";
 
-export default Page;
+export default function Page() {
+  return <Index/>
+}
