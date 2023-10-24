@@ -1,4 +1,11 @@
-export default function Index () {
-  return <h1>Root Component</h1>
+import React from "react";
+
+interface Props {
+  name: string;
 }
 
+const Index = ({ name }: Props): JSX.Element => {
+  return <div>Hello {name}</div>;
+};
+
+export default Index;

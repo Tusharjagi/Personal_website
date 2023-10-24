@@ -1,5 +1,9 @@
-import Index from "../Components/Index";
+import React from "react";
+import Index from "@/Components/Index";
 
-export default function Page() {
-  return <Index />;
-}
+const Page = (): JSX.Element => {
+  const name = "tushar";
+  return <Index {...{ name }} />;
+};
+
+export default Page;
