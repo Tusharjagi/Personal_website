@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import ParticlesComponent from "./common/particleComponent";
+import ParticlesComponent from "./Background/ParticleComponent";
 
 const Index = (): JSX.Element => {
   return <ParticlesComponent />;

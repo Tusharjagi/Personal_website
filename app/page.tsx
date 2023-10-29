@@ -1,5 +1,5 @@
 import React from "react";
-import Index from "@/Components/Index";
+import Index from "@/components/Index";
 
 export default function Page(): JSX.Element {
   return <Index />;
