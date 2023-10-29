@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@components/*": ["./Components/*"],
+      "@styles/*": ["./styles/*"]
     }
   },
   "include": ["typings/*.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "./.eslintrc.js", "Components/Index.tsx"],
