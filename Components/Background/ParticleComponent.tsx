@@ -1,5 +1,5 @@
 import React, { useCallback } from "react";
-import styles from "../../styles/components/common/particleComponent.module.scss";
+import styles from "../../styles/components/Background/particleComponent.module.scss";
 import { Particles, type IParticlesProps } from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import type { Engine, IOptions } from "tsparticles-engine";
