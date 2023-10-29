@@ -1,11 +1,9 @@
+"use client";
 import React from "react";
+import ParticlesComponent from "./common/particleComponent";
 
-interface Props {
-  name: string;
-}
-
-const Index = ({ name }: Props): JSX.Element => {
-  return <div>Hello {name}</div>;
+const Index = (): JSX.Element => {
+  return <ParticlesComponent />;
 };
 
 export default Index;
