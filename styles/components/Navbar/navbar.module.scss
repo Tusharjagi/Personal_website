@@ -1,0 +1,11 @@
+.navbar_wrapper {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  position: absolute;
+  justify-content: space-between;
+  :nth-child(2) {
+    display: flex;
+    gap: 5px;
+  }
+}
