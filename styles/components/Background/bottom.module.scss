@@ -5,6 +5,7 @@
   justify-content: center;
   filter: blur(78px);
   -webkit-filter: blur(78px);
+  z-index: -10;
 
   img {
     position: relative !important;

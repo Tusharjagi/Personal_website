@@ -1,0 +1,39 @@
+.button {
+  position: absolute;
+  padding: 10px 15px;
+  background-color: var(--black-color);
+  border: 0;
+  border-bottom: 1px solid var(--blue-color);
+  border-radius: 99999px;
+  color: var(--lightGray-color);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  z-index: 10;
+  transition:
+    all 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
+}
+
+.button:hover {
+  color: var(--white-color);
+  box-shadow: 0 0 20px var(--blue-color);
+  border-top: 1px solid var(--blue-color);
+  transition:
+    all 0.5s ease-in-out,
+    color 0.5s ease-in-out;
+}
+
+.button:not(:hover) {
+  transition:
+    all 0.5s ease-in-out,
+    color 0.5s ease-in-out;
+}
+
+.button:active {
+  background-color: var(--blue-color);
+  color: var(--black-color);
+  transition:
+    all 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
+}

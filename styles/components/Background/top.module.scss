@@ -5,6 +5,7 @@
   height: 100%;
   width: 100%;
   background-image: radial-gradient(80% 50% at 50% -4%, rgba(94, 176, 239, 0.5), hsla(0, 0%, 100%, 0));
+  z-index: -10;
 
   img {
     position: absolute;
