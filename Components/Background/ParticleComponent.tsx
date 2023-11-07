@@ -1,5 +1,4 @@
 import React, { useCallback, useEffect, useState } from "react";
-import React, { useCallback } from "react";
 import styles from "../../styles/components/Background/particleComponent.module.scss";
 import { Particles, type IParticlesProps } from "react-tsparticles";
 import { loadFull } from "tsparticles";
