@@ -12,11 +12,11 @@ const Navbar = (): JSX.Element => {
   return (
     <Grid className={styles.navbar_wrapper}>
       <Grid>
-        <CustomButton text="Resume" onClick={handle} />
+        <CustomButton text="ICON" onClick={handle} />
       </Grid>
       <Grid>
-        <CustomButton text="Resume" onClick={handle} />
-        <CustomButton text="Resume" onClick={handle} />
+        <CustomButton text="About" onClick={handle} />
+        <CustomButton text="Projects" onClick={handle} />
         <CustomButton text="Resume" onClick={handle} />
       </Grid>
     </Grid>
