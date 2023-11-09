@@ -1,0 +1,22 @@
+.glass_card {
+  background: var(--transparentTimberGreenC38-color);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px var(--transparentBlack01a-color);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.glass_card:hover {
+  box-shadow: 0 4px 30px var(--blue-color);
+  transition: all 0.4s ease-in-out;
+}
+
+.glass_card:not(:hover) {
+  transition: all 0.4s ease-in-out;
+}
