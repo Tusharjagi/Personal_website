@@ -4,7 +4,7 @@
   box-shadow: 0 4px 30px var(--transparentBlack01a-color);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
-  position: absolute;
+  position: relative;
   z-index: 10;
   display: flex;
   justify-content: center;
