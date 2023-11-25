@@ -1,9 +1,7 @@
-"use client";
 import React from "react";
-import ParticlesComponent from "./Background/ParticleComponent";
 
 const Index = (): JSX.Element => {
-  return <ParticlesComponent />;
+  return <h1>Tushar</h1>;
 };
 
 export default Index;
