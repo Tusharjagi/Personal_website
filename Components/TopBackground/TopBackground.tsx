@@ -1,4 +1,4 @@
-import styles from "@/styles/Components/NavBar/TopBackground/topBackground.module.scss";
+import styles from "@/styles/Components/TopBackground/topBackground.module.scss";
 
 const TopBackground = () => {
   return <div className={styles.top_background}></div>;
