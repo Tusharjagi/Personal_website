@@ -1,0 +1,9 @@
+.top_background {
+  z-index: -9;
+  background-image: radial-gradient(80% 70% at 50% -20%, rgba(94, 176, 239, 0.5), hsla(0, 0%, 100%, 0));
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
