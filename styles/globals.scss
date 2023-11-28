@@ -10,6 +10,11 @@ body {
   color: var(--white-color);
 }
 
+::selection {
+  background-color: var(--cyan-color);
+  color: var(--black-color);
+}
+
 :root {
   --black-color: #{c.$black};
   --white-color: #{c.$white};
