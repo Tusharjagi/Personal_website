@@ -1,0 +1,31 @@
+.button {
+  all: unset;
+  padding: 5px 20px;
+  border-radius: 9999px;
+  position: relative;
+  color: var(--lightGray-color);
+  background-color: var(--black-color);
+  cursor: pointer;
+
+  > span {
+    width: calc(100% - 2.25rem);
+    position: absolute;
+    height: 1px;
+    bottom: 0;
+    right: 0;
+    left: 1.125rem;
+    background: linear-gradient(90deg, var(--black-color) 0%, var(--blue-color) 48%, var(--black-color) 100%);
+    transition: all 600ms;
+  }
+}
+
+.button:hover {
+  box-shadow: 0 0 20px var(--blue-color);
+  color: var(--white-color);
+  transition: all 600ms;
+  position: relative;
+}
+
+.button:not(:hover) {
+  transition: all 600ms;
+}
