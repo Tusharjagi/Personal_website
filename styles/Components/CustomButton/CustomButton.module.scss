@@ -14,13 +14,13 @@
     bottom: 0;
     right: 0;
     left: 1.125rem;
-    background: linear-gradient(90deg, var(--black-color) 0%, var(--blue-color) 48%, var(--black-color) 100%);
+    background: linear-gradient(90deg, var(--black-color) 0%, var(--cyan-color) 48%, var(--black-color) 100%);
     transition: all 600ms;
   }
 }
 
 .button:hover {
-  box-shadow: 0 0 20px var(--blue-color);
+  box-shadow: 0 0 20px var(--cyan-color);
   color: var(--white-color);
   transition: all 600ms;
   position: relative;
