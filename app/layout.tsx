@@ -1,22 +1,17 @@
 import React from "react";
 import type { Metadata } from "next";
-import { Hind } from "next/font/google";
 import "@/styles/globals.scss";
-
-const poppins = Hind({
-  weight: "500",
-  subsets: ["devanagari"],
-  preload: true,
-});
+import { hind } from "@/fonts/googleFonts";
+import { textConsts } from "@/utils/textConst";
 
 export const metadata: Metadata = {
-  title: "Tushar",
-  description: "Tushar portfolio website",
+  title: `${textConsts.tushar}`,
+  description: `${textConsts.tushar} ${textConsts.portfolio} ${textConsts.website}`,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
   return (
-    <html lang="en" className={poppins.className}>
+    <html lang="en" className={hind.className}>
       <body>{children}</body>
     </html>
   );
