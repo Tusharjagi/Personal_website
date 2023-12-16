@@ -16,10 +16,12 @@ body {
 }
 
 :root {
-  --black-color: #{c.$black};
   --white-color: #{c.$white};
-  --cyan-color: #{c.$cyan};
+  --black-color: #{c.$black};
   --lightGray-color: #{c.$lightGray};
+  --bright-gray-color: #{c.$brightGray};
   --transparentBlack01a-color: #{c.$transparentBlack01a};
   --transparentTimberGreenC38-color: #{c.$transparentTimberGreenC38};
+  --cyan-color: #{c.$cyan};
+  --dark-blue-color: #{c.$darkBlue};
 }
