@@ -1,6 +1,6 @@
 "use client";
 
-import { HeadingStyled } from "@/styles/Components/About/AboutStyled";
+import { HeadingStyled } from "@/styles/Components/About/HeadingStyled";
 import MovingLine from "../UtilsComponents/MovingLine";
 
 import { nunitoFont } from "@/fonts/googleFonts";
