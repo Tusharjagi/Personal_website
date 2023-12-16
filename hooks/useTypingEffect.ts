@@ -5,6 +5,12 @@ const useTextAnimation = (textArray: string[], delay: number = 400) => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   useEffect(() => {
+    if (currentIndex === 0 && currentText === "") {
+      setCurrentText(textArray[0]);
+      setCurrentIndex(0);
+      return;
+    }
+
     const timeout = setTimeout(() => {
       const currentString: string = textArray[currentIndex % textArray.length];
       if (currentText.length < currentString.length) {
