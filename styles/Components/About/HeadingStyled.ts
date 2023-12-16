@@ -1,6 +1,6 @@
 import { Grid, styled } from "@mui/joy";
 
-export const AboutStyled = styled(Grid)`
+export const HeadingStyled = styled(Grid)`
   display: grid;
   gap: 15px;
   text-align: center;
