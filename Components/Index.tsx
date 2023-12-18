@@ -1,7 +1,7 @@
 import React from "react";
 
 import NavBar from "./NavBar/NavBar";
-import TopBackground from "./TopBackground/TopBackground";
+import TopBackground from "./Background/TopBackGround";
 import About from "./About/About";
 
 const Index = (): JSX.Element => {
