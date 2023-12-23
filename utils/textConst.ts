@@ -4,4 +4,7 @@ export const textConsts = {
   developer: "Developer",
   portfolio: "Portfolio",
   website: "Website",
+  atSign: "@",
+  copyright: "Copyright",
+  by: "By",
 };
