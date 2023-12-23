@@ -4,7 +4,7 @@ type HeadingStyledProps = {
   isMobile?: boolean;
 };
 
-export const HeadingStyled = styled(Grid)<HeadingStyledProps>`
+const HeadingStyled = styled(Grid)<HeadingStyledProps>`
   display: grid;
   gap: 15px;
   text-align: center;
@@ -14,3 +14,5 @@ export const HeadingStyled = styled(Grid)<HeadingStyledProps>`
   background-clip: text;
   text-fill-color: transparent;
 `;
+
+export default HeadingStyled;
