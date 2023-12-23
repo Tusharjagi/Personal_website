@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 
 import { NavbarStyled } from "@/styles/Components/NavBar/NavBarStyled";
