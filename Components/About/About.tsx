@@ -7,6 +7,7 @@ import { nunitoFont } from "@/fonts/googleFonts";
 import { textConsts } from "@/utils/textConst";
 
 import { isMobileDevice } from "@/utils/common";
+import TechStack from "./TechStack";
 
 const isMobile = isMobileDevice();
 
@@ -19,6 +20,7 @@ const About = () => {
         <span style={{ marginBottom: "1rem" }} />
       </HeadingStyled>
       <Description />
+      <TechStack />
     </AboutStyled>
   );
 };
