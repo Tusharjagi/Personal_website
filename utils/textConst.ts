@@ -9,4 +9,13 @@ export const textConsts = {
   by: "By",
   tech: "Tech",
   stacks: "Stacks",
+  languages: "Languages",
+  frameworks: "Frameworks",
+  andSign: "&",
+  library: "Library",
+  version: "Version",
+  control: "Control",
+  platforms: "Platforms",
+  IDE: "IDE",
+  tools: "Tools",
 };
