@@ -7,4 +7,6 @@ export const textConsts = {
   atSign: "@",
   copyright: "Copyright",
   by: "By",
+  tech: "Tech",
+  stacks: "Stacks",
 };
