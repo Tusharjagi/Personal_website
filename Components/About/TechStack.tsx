@@ -5,14 +5,14 @@ import Icons from "../UtilsComponents/Icons";
 
 import { textConsts } from "@/utils/textConst";
 
-const { tech, stacks } = textConsts;
+const { tech, stacks, languages, frameworks, andSign, library, version, control, platforms, IDE, tools } = textConsts;
 
 const TechStack = (): JSX.Element => {
   return (
     <TechStackStyled>
       <h2>{`${tech} ${stacks}`}</h2>
       <GlassSlab width={80}>
-        <Grid className="stack_name">Languages</Grid>
+        <Grid className="stack_name">{languages}</Grid>
         <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
           <Icons name="javascript" iconName="js" />
           <Icons name="typescript" iconName="ts" />
@@ -21,7 +21,7 @@ const TechStack = (): JSX.Element => {
           <Icons name="sass" />
           <Icons name="cpp" />
         </Grid>
-        <Grid className="stack_name">Frameworks & Library</Grid>
+        <Grid className="stack_name">{`${frameworks} ${andSign} ${library}`}</Grid>
         <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
           <Icons name="react" />
           <Icons name="angular" />
@@ -29,7 +29,7 @@ const TechStack = (): JSX.Element => {
           <Icons name="node" />
           <Icons name="mongodb" />
         </Grid>
-        <Grid className="stack_name">Version control & platForms</Grid>
+        <Grid className="stack_name">{`${version} ${control} ${andSign} ${platforms}`}</Grid>
         <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
           <Icons name="git" />
           <Icons name="github" />
@@ -37,7 +37,7 @@ const TechStack = (): JSX.Element => {
           <Icons name="docker" />
           <Icons name="jenkins" />
         </Grid>
-        <Grid className="stack_name">IDE & Tools</Grid>
+        <Grid className="stack_name">{`${IDE} ${tools}`}</Grid>
         <Grid display="flex" gap="2rem" justifyContent="center">
           <Icons name="vs-code" iconName="vscode" />
           <Icons name="intellij" />
