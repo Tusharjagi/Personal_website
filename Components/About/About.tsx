@@ -11,7 +11,7 @@ import TechStack from "./TechStack";
 
 const isMobile = isMobileDevice();
 
-const About = () => {
+const About = (): JSX.Element => {
   return (
     <AboutStyled>
       <HeadingStyled isMobile={isMobile} className={`${nunitoFont.className}`}>

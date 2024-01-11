@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/joy";
+import { Grid } from "@mui/joy";
 import TechStackStyled from "@/styles/Components/About/TechStyled";
 import GlassSlab from "../UtilsComponents/GlassSlab";
 import Icons from "../UtilsComponents/Icons";
