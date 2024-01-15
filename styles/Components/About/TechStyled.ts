@@ -20,6 +20,7 @@ const TechStackStyled = styled(Grid)`
   }
 
   > h2 {
+    display: inline-flex;
     padding-left: 8rem;
     padding-bottom: 0.5rem;
     font-family: ${diphylleia};

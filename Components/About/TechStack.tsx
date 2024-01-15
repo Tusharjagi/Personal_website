@@ -10,7 +10,11 @@ const { tech, stacks, languages, frameworks, andSign, library, version, control,
 const TechStack = (): JSX.Element => {
   return (
     <TechStackStyled>
-      <h2>{`${tech} ${stacks}`}</h2>
+      <h2>
+        {tech}
+        {stacks}
+      </h2>
+
       <GlassSlab width={80}>
         <Grid className="stack_name">{languages}</Grid>
         <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
