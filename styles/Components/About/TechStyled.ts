@@ -21,8 +21,7 @@ const TechStackStyled = styled(Grid)`
 
   > h2 {
     display: inline-flex;
-    padding-left: 8rem;
-    padding-bottom: 0.5rem;
+    padding: 0 2rem 0.5rem 8rem;
     font-family: ${diphylleia};
     color: var(--lightGray-color);
   }
@@ -30,6 +29,7 @@ const TechStackStyled = styled(Grid)`
   > h2:hover {
     color: var(--white-color);
     transform: scale(1.1);
+    transform: translateX(-20%);
     transition: all 300ms ease-in-out;
   }
 
