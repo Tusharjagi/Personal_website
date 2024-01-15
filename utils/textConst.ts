@@ -18,4 +18,6 @@ export const textConsts = {
   platforms: "Platforms",
   IDE: "IDE",
   tools: "Tools",
+  Education: "Education",
+  Experience: "Experience",
 };
