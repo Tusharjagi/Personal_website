@@ -10,6 +10,7 @@ import { isMobileDevice } from "@/utils/common";
 import TechStack from "./TechStack";
 import Carrier from "./Carrier";
 import Certifications from "./Certifications";
+import Projects from "./Projects";
 
 const isMobile = isMobileDevice();
 
@@ -25,6 +26,7 @@ const About = (): JSX.Element => {
       <TechStack />
       <Carrier />
       <Certifications />
+      <Projects />
     </AboutStyled>
   );
 };
