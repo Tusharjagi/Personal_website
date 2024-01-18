@@ -1,7 +1,7 @@
 import CertificationStyled from "@/styles/Components/About/CertificationStyled";
 import { textConsts } from "@/utils/textConst";
 import GlassSlab from "../UtilsComponents/GlassSlab";
-import { Grid } from "@mui/joy";
+import Grid from "@mui/joy/Grid";
 
 const Certifications = (): JSX.Element => {
   return (
