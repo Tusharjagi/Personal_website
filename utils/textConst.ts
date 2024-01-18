@@ -20,4 +20,14 @@ export const textConsts = {
   tools: "Tools",
   Education: "Education",
   Experience: "Experience",
+  Senior: "Senior",
+  Secondary: "Secondary",
+  graduation: "Graduation",
+};
+
+export const years = {
+  2016: "2016",
+  2017: "2017",
+  2018: "2018",
+  2022: "2022",
 };
