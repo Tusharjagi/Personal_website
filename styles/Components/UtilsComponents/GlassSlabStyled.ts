@@ -20,7 +20,6 @@ export const GlassSlabStyled = styled(Grid)<GlassSlabStyledProps>`
   width: ${(props) => props.width || 0};
   position: relative;
   text-align: justify;
-  display: flex;
   color: gray;
   padding: 20px;
   background: rgba(78, 134, 166, 0.13);
