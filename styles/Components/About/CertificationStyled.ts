@@ -2,6 +2,8 @@ import { Grid, styled } from "@mui/joy";
 import { diphylleia } from "@/fonts/googleFonts";
 
 const CertificationStyled = styled(Grid)`
+  margin-bottom: 2rem;
+
   > h2 {
     display: inline-flex;
     padding: 0 2rem 0.5rem 8rem;
