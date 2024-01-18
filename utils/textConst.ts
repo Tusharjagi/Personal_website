@@ -24,6 +24,7 @@ export const textConsts = {
   Secondary: "Secondary",
   graduation: "Graduation",
   certifications: "Certifications",
+  projects: "Projects",
 };
 
 export const years = {
