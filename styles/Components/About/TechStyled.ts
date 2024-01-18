@@ -7,6 +7,7 @@ const TechStackStyled = styled(Grid)`
     position: absolute;
     left: 0;
     margin-left: 10%;
+    font-size: 22px;
   }
 
   .stack_name:hover {
