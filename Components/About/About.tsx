@@ -8,6 +8,7 @@ import { textConsts } from "@/utils/textConst";
 
 import { isMobileDevice } from "@/utils/common";
 import TechStack from "./TechStack";
+import Carrier from "./Carrier";
 
 const isMobile = isMobileDevice();
 
@@ -21,6 +22,7 @@ const About = (): JSX.Element => {
       </HeadingStyled>
       <Description />
       <TechStack />
+      <Carrier />
     </AboutStyled>
   );
 };
