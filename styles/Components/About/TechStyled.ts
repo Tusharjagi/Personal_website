@@ -3,6 +3,9 @@ import { diphylleia } from "@/fonts/googleFonts";
 
 const TechStackStyled = styled(Grid)`
   margin-bottom: 2rem;
+  .inner_tech_stack {
+    padding: 20px;
+  }
   .stack_name {
     position: absolute;
     left: 0;

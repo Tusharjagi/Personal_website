@@ -16,36 +16,38 @@ const TechStack = (): JSX.Element => {
       </h2>
 
       <GlassSlab width={80}>
-        <Grid className="stack_name">{languages}</Grid>
-        <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
-          <Icons name="javascript" iconName="js" />
-          <Icons name="typescript" iconName="ts" />
-          <Icons name="html" />
-          <Icons name="css" />
-          <Icons name="sass" />
-          <Icons name="cpp" />
-        </Grid>
-        <Grid className="stack_name">{`${frameworks} ${andSign} ${library}`}</Grid>
-        <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
-          <Icons name="react" />
-          <Icons name="angular" />
-          <Icons name="express" />
-          <Icons name="node" />
-          <Icons name="mongodb" />
-        </Grid>
-        <Grid className="stack_name">{`${version} ${control} ${andSign} ${platforms}`}</Grid>
-        <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
-          <Icons name="git" />
-          <Icons name="github" />
-          <Icons name="gitlab" />
-          <Icons name="docker" />
-          <Icons name="jenkins" />
-        </Grid>
-        <Grid className="stack_name">{`${IDE} ${tools}`}</Grid>
-        <Grid display="flex" gap="2rem" justifyContent="center">
-          <Icons name="vs-code" iconName="vscode" />
-          <Icons name="intellij" />
-          <Icons name="postman" />
+        <Grid className="inner_tech_stack">
+          <Grid className="stack_name">{languages}</Grid>
+          <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
+            <Icons name="javascript" iconName="js" />
+            <Icons name="typescript" iconName="ts" />
+            <Icons name="html" />
+            <Icons name="css" />
+            <Icons name="sass" />
+            <Icons name="cpp" />
+          </Grid>
+          <Grid className="stack_name">{`${frameworks} ${andSign} ${library}`}</Grid>
+          <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
+            <Icons name="react" />
+            <Icons name="angular" />
+            <Icons name="express" />
+            <Icons name="node" />
+            <Icons name="mongodb" />
+          </Grid>
+          <Grid className="stack_name">{`${version} ${control} ${andSign} ${platforms}`}</Grid>
+          <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
+            <Icons name="git" />
+            <Icons name="github" />
+            <Icons name="gitlab" />
+            <Icons name="docker" />
+            <Icons name="jenkins" />
+          </Grid>
+          <Grid className="stack_name">{`${IDE} ${tools}`}</Grid>
+          <Grid display="flex" gap="2rem" justifyContent="center">
+            <Icons name="vs-code" iconName="vscode" />
+            <Icons name="intellij" />
+            <Icons name="postman" />
+          </Grid>
         </Grid>
       </GlassSlab>
     </TechStackStyled>
