@@ -33,6 +33,7 @@ const TechStack = (): JSX.Element => {
             <Icons name="express" />
             <Icons name="node" />
             <Icons name="mongodb" />
+            <Icons name="jest" />
           </Grid>
           <Grid className="stack_name">{`${version} ${control} ${andSign} ${platforms}`}</Grid>
           <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
