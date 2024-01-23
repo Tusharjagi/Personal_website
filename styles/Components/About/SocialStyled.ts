@@ -10,11 +10,6 @@ const SocialStyled = styled(Grid)`
     gap: 16px;
     flex-wrap: wrap;
 
-    @media (max-width: 600px) {
-      flex-direction: column;
-      align-items: center;
-    }
-
     a {
       color: inherit;
       text-decoration: none;
