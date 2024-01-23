@@ -32,6 +32,7 @@ export const textConsts = {
   angular: "Angular",
   nodeJs: "Node.js",
   python: "Python",
+  cpp: "C++",
 };
 
 export const years = {
