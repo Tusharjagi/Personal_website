@@ -4,6 +4,37 @@ import { diphylleia } from "@/fonts/googleFonts";
 const CertificationStyled = styled(Grid)`
   margin-bottom: 2rem;
 
+  .certificate_wrapper {
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .certificates {
+    font-size: 20px;
+  }
+
+  .certificates:hover {
+    transform: scale(1.1);
+    padding: 0.6rem;
+    color: var(--white-color);
+    transition: all 300ms ease-in-out;
+    font-size: 1.2rem;
+  }
+
+  .certificates:not(:hover) {
+    transition: all 300ms ease-in-out;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
   > h2 {
     display: inline-flex;
     padding: 0 2rem 0.5rem 8rem;
