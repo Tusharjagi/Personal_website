@@ -33,6 +33,7 @@ export const textConsts = {
   nodeJs: "Node.js",
   python: "Python",
   cpp: "C++",
+  sapAbap: "SAP ABAP",
 };
 
 export const years = {
