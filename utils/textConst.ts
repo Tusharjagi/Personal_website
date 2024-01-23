@@ -26,6 +26,9 @@ export const textConsts = {
   certifications: "Certifications",
   projects: "Projects",
   Socials: "Socials",
+  meta: "Meta",
+  front: "Front",
+  end: "End",
 };
 
 export const years = {
