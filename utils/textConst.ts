@@ -30,6 +30,7 @@ export const textConsts = {
   front: "Front",
   end: "End",
   angular: "Angular",
+  nodeJs: "node.js",
 };
 
 export const years = {
