@@ -25,6 +25,7 @@ const TechStack = (): JSX.Element => {
             <Icons name="css" />
             <Icons name="sass" />
             <Icons name="cpp" />
+            <Icons name="dart" />
           </Grid>
           <Grid className="stack_name">{`${frameworks} ${andSign} ${library}`}</Grid>
           <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
