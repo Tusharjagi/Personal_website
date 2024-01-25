@@ -15,6 +15,7 @@ const CertificationStyled = styled(Grid)`
 
   .certificates {
     font-size: 20px;
+    max-width: 200px;
   }
 
   .certificates:hover {
