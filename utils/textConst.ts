@@ -39,6 +39,7 @@ export const textConsts = {
   world: "World",
   clock: "Clock",
   time: "Time",
+  traveling: "Traveling",
 };
 
 export const years = {
