@@ -36,6 +36,7 @@ const TechStack = (): JSX.Element => {
             <Icons name="mongodb" />
             <Icons name="jest" />
             <Icons name="flutter" />
+            <Icons name="django" />
           </Grid>
           <Grid className="stack_name">{`${version} ${control} ${andSign} ${platforms}`}</Grid>
           <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
