@@ -36,6 +36,9 @@ export const textConsts = {
   sapAbap: "SAP ABAP",
   previous: "Previous",
   github: "GitHub",
+  world: "World",
+  clock: "Clock",
+  time: "Time",
 };
 
 export const years = {
