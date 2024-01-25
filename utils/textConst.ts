@@ -34,6 +34,8 @@ export const textConsts = {
   python: "Python",
   cpp: "C++",
   sapAbap: "SAP ABAP",
+  previous: "Previous",
+  github: "GitHub",
 };
 
 export const years = {
