@@ -46,7 +46,7 @@ const Certifications = (): JSX.Element => {
           <Grid>
             <a href="/assets/pdf/node_js_course.pdf" target="_blank" rel="noopener noreferrer">
               <div className="certificates">
-                <Image src="/assets/certifications/node_crt.png" width={200} height={150} alt={`${nodeJs}`} />
+                <Image src="/assets/certifications/node.png" width={200} height={150} alt={`${nodeJs}`} />
                 <div>
                   <span>{nodeJs}</span>
                 </div>
