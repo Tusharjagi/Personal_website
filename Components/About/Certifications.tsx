@@ -20,7 +20,7 @@ const Certifications = (): JSX.Element => {
             >
               <div className="certificates">
                 <Image
-                  src="/assets/certifications/meta_frontend_developer.png"
+                  src="/assets/previews/meta_frontend_developer.png"
                   width={200}
                   height={150}
                   alt={`${meta}_${front}_${end}_${developer}`}
@@ -35,7 +35,7 @@ const Certifications = (): JSX.Element => {
           <Grid>
             <a href="/assets/pdf/angular.pdf" target="_blank" rel="noopener noreferrer">
               <div className="certificates">
-                <Image src="/assets/certifications/angular.png" width={200} height={150} alt={`${angular}`} />
+                <Image src="/assets/previews/angular.png" width={200} height={150} alt={`${angular}`} />
                 <div>
                   <span>{angular}</span>
                 </div>
@@ -46,7 +46,7 @@ const Certifications = (): JSX.Element => {
           <Grid>
             <a href="/assets/pdf/node_js_course.pdf" target="_blank" rel="noopener noreferrer">
               <div className="certificates">
-                <Image src="/assets/certifications/node.png" width={200} height={150} alt={`${nodeJs}`} />
+                <Image src="/assets/previews/node.png" width={200} height={150} alt={`${nodeJs}`} />
                 <div>
                   <span>{nodeJs}</span>
                 </div>
@@ -61,7 +61,7 @@ const Certifications = (): JSX.Element => {
               rel="noopener noreferrer"
             >
               <div className="certificates">
-                <Image src="/assets/certifications/python.png" width={200} height={150} alt={`${python}`} />
+                <Image src="/assets/previews/python.png" width={200} height={150} alt={`${python}`} />
                 <div>
                   <span>{python}</span>
                 </div>
@@ -76,7 +76,7 @@ const Certifications = (): JSX.Element => {
               rel="noopener noreferrer"
             >
               <div className="certificates">
-                <Image src="/assets/certifications/cpp.png" width={200} height={150} alt={`${cpp}`} />
+                <Image src="/assets/previews/cpp.png" width={200} height={150} alt={`${cpp}`} />
                 <div>
                   <span>{cpp}</span>
                 </div>
@@ -87,7 +87,7 @@ const Certifications = (): JSX.Element => {
           <Grid>
             <a href="/assets/pdf/sapAbap.pdf" target="_blank" rel="noopener noreferrer">
               <div className="certificates">
-                <Image src="/assets/certifications/sap.png" width={200} height={150} alt={`${sapAbap}`} />
+                <Image src="/assets/previews/sap.png" width={200} height={150} alt={`${sapAbap}`} />
                 <div>
                   <span>{sapAbap}</span>
                 </div>
