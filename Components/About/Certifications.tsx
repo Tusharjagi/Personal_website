@@ -8,7 +8,7 @@ const Certifications = (): JSX.Element => {
   const { certifications, meta, front, end, developer, angular, nodeJs, python, cpp, sapAbap } = textConsts;
 
   return (
-    <CertificationStyled>
+    <CertificationStyled id="certificate">
       <h2>{certifications}</h2>
       <GlassSlab width={80}>
         <Grid className="certificate_wrapper">
