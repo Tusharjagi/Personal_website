@@ -17,41 +17,60 @@ const TechStack = (): JSX.Element => {
 
       <GlassSlab width={80}>
         <Grid className="inner_tech_stack">
-          <Grid className="stack_name">{languages}</Grid>
-          <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
-            <Icons name="javascript" iconName="js" />
-            <Icons name="typescript" iconName="ts" />
-            <Icons name="html" />
-            <Icons name="css" />
-            <Icons name="sass" />
-            <Icons name="cpp" />
-            <Icons name="python" />
-            <Icons name="dart" />
+          <Grid className="stack_wrapper">
+            <Grid className="stack_name">
+              <span>{languages}</span>
+            </Grid>
+            <Grid>
+              <Icons name="javascript" iconName="js" />
+              <Icons name="typescript" iconName="ts" />
+              <Icons name="html" />
+              <Icons name="css" />
+              <Icons name="sass" />
+              <Icons name="cpp" />
+              <Icons name="python" />
+              <Icons name="dart" />
+            </Grid>
           </Grid>
-          <Grid className="stack_name">{`${frameworks} ${andSign} ${library}`}</Grid>
-          <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
-            <Icons name="react" />
-            <Icons name="angular" />
-            <Icons name="express" />
-            <Icons name="node" />
-            <Icons name="mongodb" />
-            <Icons name="jest" />
-            <Icons name="django" />
-            <Icons name="flutter" />
+
+          <Grid className="stack_wrapper">
+            <Grid className="stack_name">
+              <span>{`${frameworks} ${andSign} ${library}`}</span>
+            </Grid>
+            <Grid>
+              <Icons name="react" />
+              <Icons name="angular" />
+              <Icons name="express" />
+              <Icons name="node" />
+              <Icons name="mongodb" />
+              <Icons name="jest" />
+              <Icons name="django" />
+              <Icons name="flutter" />
+            </Grid>
           </Grid>
-          <Grid className="stack_name">{`${version} ${control} ${andSign} ${platforms}`}</Grid>
-          <Grid display="flex" gap="2rem" marginBottom="2rem" justifyContent="center">
-            <Icons name="git" />
-            <Icons name="github" />
-            <Icons name="gitlab" />
-            <Icons name="docker" />
-            <Icons name="jenkins" />
+
+          <Grid className="stack_wrapper">
+            <Grid className="stack_name">
+              <span>{`${version} ${control} ${andSign} ${platforms}`}</span>
+            </Grid>
+            <Grid>
+              <Icons name="git" />
+              <Icons name="github" />
+              <Icons name="gitlab" />
+              <Icons name="docker" />
+              <Icons name="jenkins" />
+            </Grid>
           </Grid>
-          <Grid className="stack_name">{`${IDE} ${tools}`}</Grid>
-          <Grid display="flex" gap="2rem" justifyContent="center">
-            <Icons name="vs-code" iconName="vscode" />
-            <Icons name="intellij" />
-            <Icons name="postman" />
+
+          <Grid className="stack_wrapper">
+            <Grid className="stack_name">
+              <span>{`${IDE} ${tools}`}</span>
+            </Grid>
+            <Grid>
+              <Icons name="vs-code" iconName="vscode" />
+              <Icons name="intellij" />
+              <Icons name="postman" />
+            </Grid>
           </Grid>
         </Grid>
       </GlassSlab>
