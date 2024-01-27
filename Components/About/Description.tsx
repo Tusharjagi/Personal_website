@@ -3,7 +3,7 @@ import React from "react";
 import GlassSlab from "../UtilsComponents/GlassSlab";
 import { DescriptionStyled } from "@/styles/Components/About/DescriptionStyled";
 
-const Description = () => {
+const Description = (): JSX.Element => {
   const text =
     "Hey there! 👋 I'm Tushar, a passionate Software Engineer dedicated to crafting immersive digital experiences. Beginning my journey as a Frontend Developer, I've embarked on a mission to leave a positive imprint on the ever-evolving landscape of web development.";
 
@@ -15,7 +15,7 @@ const Description = () => {
 
   const text4 = "Let's collaboratively shape the future through code!";
   return (
-    <DescriptionStyled>
+    <DescriptionStyled id="about">
       <GlassSlab width={100}>
         <div>{text}</div>
         <br />
