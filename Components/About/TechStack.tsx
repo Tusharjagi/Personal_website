@@ -9,7 +9,7 @@ const { tech, stacks, languages, frameworks, andSign, library, version, control,
 
 const TechStack = (): JSX.Element => {
   return (
-    <TechStackStyled>
+    <TechStackStyled id="stack">
       <h2>
         {tech}
         {stacks}
