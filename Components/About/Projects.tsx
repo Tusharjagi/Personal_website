@@ -8,7 +8,7 @@ const Projects = (): JSX.Element => {
   const { projects, previous, portfolio, github, world, time, clock, traveling, website } = textConsts;
 
   return (
-    <ProjectsStyled>
+    <ProjectsStyled id="project">
       <h2>{projects}</h2>
       <GlassSlab width={80}>
         <Grid className="project_wrapper">
