@@ -24,6 +24,7 @@
   color: var(--white-color);
   transition: all 600ms;
   position: relative;
+  transform: scale(1.1);
 }
 
 .button:not(:hover) {
