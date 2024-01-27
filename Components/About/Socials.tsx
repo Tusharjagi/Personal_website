@@ -8,7 +8,7 @@ const Socials = (): JSX.Element => {
   const { Socials } = textConsts;
 
   return (
-    <SocialStyled>
+    <SocialStyled id="contact">
       <h2>{Socials}</h2>
       <GlassSlab width={80}>
         <Grid className="social_icons">
