@@ -37,7 +37,7 @@ const Carrier = (): JSX.Element => {
   };
 
   return (
-    <CarrierStyled>
+    <CarrierStyled id="carrier">
       <h2>{`${Education} & ${Experience}`}</h2>
       <GlassSlab width={80}>
         <Grid className="carrier_wrapper">
