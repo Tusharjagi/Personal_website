@@ -12,6 +12,10 @@ const MenuComponent = (): JSX.Element => {
     }
   };
 
+  const handleResume = (): void => {
+    window.location.href = "https://docs.google.com/document/d/1Zg1IMAaSdAzbDwA_hOK5Xf76fQ7gjk-xhmUzQOc2HdY";
+  };
+
   return (
     <MenuStyled>
       <CustomButton
@@ -41,6 +45,9 @@ const MenuComponent = (): JSX.Element => {
           scrollToSection("project");
         }}
       />
+
+      <CustomButton text="RESUME" onClick={handleResume} />
+
       <CustomButton
         style={{ padding: "0 20px" }}
         icon="github.svg"
