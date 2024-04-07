@@ -40,6 +40,9 @@ export const textConsts = {
   clock: "Clock",
   time: "Time",
   traveling: "Traveling",
+  kanban: "Kanban",
+  task: "task",
+  management: "management",
 };
 
 export const years = {
